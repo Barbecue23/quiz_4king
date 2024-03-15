@@ -79,9 +79,13 @@ class Home extends StatelessWidget {
   List<List<String>> _divideNames(List<String> names, int numOfGroups) {
     List<List<String>> dividedList = [];
     int numOfNamesInGroup = (names.length / numOfGroups).ceil();
+    int numOfNamesInGroup2 = (names.length/ numOfGroups).floor();
     int start = 0;
 
     for (int i = 0; i < numOfGroups; i++) {
+      if (names.length == 5 || names.length == 6) {
+        numOfNamesInGroup = numOfNamesInGroup2;
+      }
       int end = start + numOfNamesInGroup;
       if (end > names.length) {
         end = names.length;
@@ -90,6 +94,17 @@ class Home extends StatelessWidget {
       start = end;
     }
 
+    for(int i = 0; i < 2; i++) {
+      if(names.length == 5 ) {
+        dividedList[0].add(names[4]);
+        break;
+      }else if(names.length == 6){
+        dividedList[0].add(names[4]);
+        dividedList[1].add(names[5]);
+        break;
+      }
+      
+    }
     return dividedList;
   }
 }
