@@ -1,16 +1,25 @@
-# quiz_4king
+# หมวกคัดสรร in 4 KING
+เฮ้ โย่ว พวกนายรู้จักหมวกคัดสรรในหนังเรื่องแฮร์รี่พอตเตอร์กันรึป่าว ถ้าไม่รู้จักเราจะเล่าให้ฟังคราวๆ ในแฮร์รี่พอตเตอร์จะแบ่งบ้านออกเป็น 4 บ้านนะเว้ย<br> ได้แก่<br> 1.บ้านกริฟฟินดอร์ (Gryffindor)<br> 2.บ้านฮัฟเฟิลพัฟ (Hufflepuff)<br> 3.บ้านเรเวนคลอว์ (Ravenclaw)<br> 4.บ้านสลิธีรีน (Slytherin)<br> โดยจะหมวกคัดสรรจะอ่านจิตใจของคนนั้นแล้วคัดไปอยู่ในแต่ละบ้าน<br> นั้นแหละพวกแก เรามาเข้าเรื่องกันดีกว่าคือโค้ดที่เราเขียนด้านบนอ่ะ ก็คือหมวกคัดสรรแบบในแฮร์รี่เลยแต่เราอยากลองเอาหนังสองเรื่องมาผสมกันระหว่างแฮร์รี่กับ4KING เราเลยเอาหมวกคัดสรรมาเลือกให้ว่าพวกนายจะได้อยู่สถาบันไหนในหนัง 4KING ได้แก่<br>1.ประชาชื่น<br>2.อินทร<br>3.กนก<br>4.บุรณพนธ์
 
-A new Flutter project.
+## โปรแกรมนี้ใช้ Visual Studio Codei ในการเขียน
+### วิธีติดตั้ง
+1. โหลดโปรแกรม Visual Studio Code ลงที่เครื่อง
+2. ลง EXTENSIONS ดังต่อไปนี้
+<br>2.1 Flutter
+<br>2.2 Dart
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## วิธีในการ Run
+Run ในเครื่อง PC หรือ Notebook
+1. เลือกอุปกรณ์ที่ต้องการจะรัน (แนะนำเป็น chorom)
+2. เลือกหัวข้อ Run and Debug (ctrl+shift+D) แล้วกด Run and Debug
 
-A few resources to get you started if this is your first Flutter project:
+Run ผ่านเว็บ https://quiz-4king.vercel.app/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## วิธีใส่พารามิเตอร์และดูผลลัพธิ์
+1. ใส่จำนวนคนในช่ป้อนจำนวนคน
+2. ใส่ชื่อช่องป้อนชื่อ(จะใส่แต่ชื่อหรือใส่นานสกุลด้วยก็ได้ตามสบาย )
+3. กดปุ่นบันทึกด้านล่าง
+4. หลังจากกดปุ่มบันทึกแล้วระบบจะแสดงผลว่าใครอยู่สถาบันไหน
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
