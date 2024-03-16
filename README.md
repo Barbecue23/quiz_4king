@@ -6,8 +6,8 @@
 1. ดาวน์โหลด SDK ที่ลิงค์นี้ https://docs.flutter.dev/get-started/install
 2. โหลดโปรแกรม Visual Studio Code ลงที่เครื่อง
 3. ลง EXTENSIONS ดังต่อไปนี้
-<br>2.1 Flutter
-<br>2.2 Dart
+<br>3.1 Flutter
+<br>3.2 Dart
 
 
 ## วิธีในการ Run ▶️
