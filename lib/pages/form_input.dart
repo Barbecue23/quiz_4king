@@ -8,7 +8,7 @@ class FormInput extends StatefulWidget {
 
 class _FormInputState extends State<FormInput> {
   final TextEditingController _controller = TextEditingController();
-  List<String> names = [];
+  List<String> names = [];//เก็บชื่อคนที่ป้อนเข้ามา
   int number = 0;
 
   @override
@@ -96,7 +96,10 @@ class _FormInputState extends State<FormInput> {
                       MaterialPageRoute(builder: (context) => Home(names: names)),
                     );
                   },
-                  child: Text('บันทึก'),
+                  child: Text('บันทึก', style: TextStyle(color: Colors.white)),
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.red,
+                  )
                 ),
               ),
             ],
