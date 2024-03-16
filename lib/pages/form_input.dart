@@ -96,10 +96,7 @@ class _FormInputState extends State<FormInput> {
                       MaterialPageRoute(builder: (context) => Home(names: names)),
                     );
                   },
-                  child: Text('บันทึก', style: TextStyle(color: Colors.white)),
-                  style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
-                  )
+                  child: Text('บันทึก'),
                 ),
               ),
             ],
